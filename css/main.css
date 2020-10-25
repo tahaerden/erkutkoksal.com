@@ -1,0 +1,163 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  padding: 0 10vw;
+  color: #666;
+  max-width: 1200px;
+}
+input,
+textarea,
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: 0;
+}
+.btn {
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+}
+.btn-primary {
+  background-color: #104639;
+  color: white;
+  padding: 1em 3em;
+}
+.btn-lead {
+  min-width: 30%;
+  max-width: 80%;
+  text-align: right;
+  position: absolute;
+  left: 0;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+.row {
+  margin: 0;
+  width: 100%;
+}
+.bg1 {
+  background-color: #104639;
+}
+.text-1 {
+  color: #104639;
+}
+.text-white {
+  color: white;
+}
+.text-center {
+  text-align: center;
+}
+.m-0 {
+  margin: 0;
+}
+.m-t-0 {
+  margin-top: 0;
+}
+.m-b-3em {
+  margin-bottom: 3em;
+}
+.p-0 {
+  padding: 0;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+h1.text-lead {
+  font-family: 'Passion One', cursive;
+  position: relative;
+  margin: 0;
+  color: #333;
+  font-size: clamp(5rem, 30vw, 13rem);
+  line-height: 1em;
+}
+p.text-lead {
+  font-size: clamp(1rem, -0.875rem + 8.333vw, 1.5rem);
+  padding: 0;
+}
+h1 {
+  font-size: 3em;
+  font-weight: normal;
+  text-align: center;
+}
+p {
+  text-align: justify;
+  padding: 0 3em 1em;
+}
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  white-space: nowrap;
+}
+section {
+  /* height: calc(100vh - 6rem); */
+  min-height: 100vh;
+}
+#intro {
+  display: flex;
+  flex-direction: column;
+}
+.intro-content {
+  flex: 1;
+  background-image: url('../img/intro-bg.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+}
+.social {
+  position: fixed;
+  width: 8vw;
+  height: 100vh;
+  right: 1vw;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social a {
+  max-width: 40px;
+  margin: 15px 0;
+}
+.social a img {
+  width: 100%;
+}
+.flex-center-both {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#epilation img {
+  position: relative;
+  top: -40px;
+}
+#skin-care {
+  /* background-color: #31b494; */
+}
+#hair {
+  background-color: black;
+}
+#contact {
+  position: relative;
+}
+footer {
+  position: absolute;
+  bottom: 20px;
+}
+.footer-social {
+  display: flex;
+  justify-content: space-evenly;
+}

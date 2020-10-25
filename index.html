@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erkut Köksal | Beauty, Cosmetic & Personal Care</title>
+
+    <link rel="stylesheet" href="modules/flexboxgrid.min.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+  </head>
+  <body>
+    <!-- <div class="social">
+      <a href="#"><img src="img/social/instagram.svg" alt="instagram" /></a>
+      <a href="#"><img src="img/social/facebook.svg" alt="facebook" /></a>
+      <a href="#"><img src="img/social/youtube.svg" alt="youtube" /></a>
+      <a href="#"><img src="img/social/twitter.svg" alt="twitter" /></a>
+      <a href="#"><img src="img/social/whatsapp.svg" alt="whatsapp" /></a>
+    </div> -->
+    <header class="row center-xs start-sm">
+      <div class="col-xs-12 col-sm-2">
+        <img src="img/logo.png" alt="Erkut Köksal logo" />
+      </div>
+      <div class="col-xs-12 col-sm-10">
+        <nav class="row">
+          <a class="col-xs" onclick="scrollToDiv('epilation')">Epilasyon</a>
+          <a class="col-xs" onclick="scrollToDiv('skin-care')">Cilt Bakımı</a>
+          <a class="col-xs" onclick="scrollToDiv('hair')"
+            >Saç ve Kaş Tasarımı</a
+          >
+          <a class="col-xs" onclick="scrollToDiv('contact')">İletişim</a>
+        </nav>
+      </div>
+    </header>
+    <section id="intro">
+      <div class="row intro-content">
+        <div class="col-xs">
+          <h1 class="text-lead">Er</h1>
+          <h1 class="text-lead">&nbsp;kek</h1>
+          <p class="text-lead m-b-3em">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+            omnis?
+          </p>
+          <button class="btn btn-primary btn-lead">Bizi Keşfet</button>
+        </div>
+      </div>
+    </section>
+    <section id="epilation" class="bg1 text-white">
+      <div class="row">
+        <div class="col-xs-12 col-md text-center">
+          <img
+            class="responsive"
+            src="img/epilation.jpg"
+            alt="man epilation body"
+          />
+        </div>
+        <div class="col-xs-12 col-md flex-center-both">
+          <h1>Epilasyon</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+            quia. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Suscipit, aliquid!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            officia excepturi necessitatibus quod ea magni dolorum eum
+            consectetur? Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Eos, doloremque.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            perferendis asperiores quae amet obcaecati autem voluptatibus ipsum
+            excepturi culpa eveniet. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nemo, quam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="skin-care">
+      <div class="row">
+        <div class="col-xs-12 col-md flex-center-both">
+          <h1>Cilt Bakımı</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+            quia. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Suscipit, aliquid!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            officia excepturi necessitatibus quod ea magni dolorum eum
+            consectetur? Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Eos, doloremque.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            perferendis asperiores quae amet obcaecati autem voluptatibus ipsum
+            excepturi culpa eveniet. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nemo, quam.
+          </p>
+          <button class="btn btn-primary" onclick="scrollToDiv('contact')">
+            Bize Ulaş
+          </button>
+          <br /><br />
+        </div>
+        <div class="col-xs-12 col-md flex-center-both">
+          <img class="responsive" src="img/skin-care.jpg" alt="man skin care" />
+        </div>
+      </div>
+    </section>
+    <section id="hair" class="text-white">
+      <div class="row">
+        <div class="col-xs-12 col-md flex-center-both">
+          <img
+            class="responsive"
+            src="img/hair.jpg"
+            alt="man afro hair dark art"
+          />
+        </div>
+        <div class="col-xs-12 col-md flex-center-both">
+          <h1>Saç ve Kaş Tasarımı</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+            quia. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Suscipit, aliquid!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            officia excepturi necessitatibus quod ea magni dolorum eum
+            consectetur? Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Eos, doloremque.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            perferendis asperiores quae amet obcaecati autem voluptatibus ipsum
+            excepturi culpa eveniet. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nemo, quam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="bg1 text-white">
+      <div class="row">
+        <div class="col-xs">
+          <a href="mailto:erkutkoksal@hotmail.com"
+            ><img src="img/social/email.svg" alt="email"
+          /></a>
+          <a href="#"><img src="img/social/instagram.svg" alt="instagram" /></a>
+          <a href="https://api.whatsapp.com/send?phone=905424321663"
+            ><img src="img/social/whatsapp.svg" alt="whatsapp"
+          /></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md flex-center-both">
+          <h1>Ankara</h1>
+          <p>Tunalı Hilmi cad. La Beauty Stüdyo 81/6 Çankaya</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.55202650341!2d32.85914895116236!3d39.906660979326745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34ffc08343817%3A0x6aee6befe95fb051!2sLa%20Beauty%20Erkut%20K%C3%B6ksal!5e0!3m2!1sen!2str!4v1603548587065!5m2!1sen!2str"
+            width="100%"
+            height="400"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+          <br /><br />
+        </div>
+        <div class="col-xs-12 col-md flex-center-both">
+          <h1>İstanbul</h1>
+          <p>Teşvikiye cad. Sodun apt. 19/6 Nişantaşı</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d752.2226892073262!2d28.992911488141953!3d41.049517998699685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab70c0a4971f3%3A0x1d47cc8b5a33471f!2zSGFyYml5ZSwgVGXFn3Zpa2l5ZSBDZC4gbm86MTkvMTIsIDM0MjUwIMWeacWfbGkvxLBzdGFuYnVs!5e0!3m2!1sen!2str!4v1603548584221!5m2!1sen!2str"
+            width="100%"
+            height="400"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+          <br /><br />
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function scrollToDiv(id) {
+        document.getElementById(id).scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+    </script>
+  </body>
+</html>
