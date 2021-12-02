@@ -30,29 +30,132 @@
       </div>
       <div class="col-xs-12 col-sm-10">
         <nav class="row">
-          <a class="col-xs" onclick="scrollToDiv('epilation')">Epilasyon</a>
-          <a class="col-xs" onclick="scrollToDiv('skin-care')">Cilt Bakımı</a>
-          <a class="col-xs" onclick="scrollToDiv('hair')">Saç ve Kaş Tasarımı</a>
-          <a class="col-xs" onclick="scrollToDiv('contact')">İletişim</a>
+          <a class="col-xs" onclick="scrollToDiv('dudak-renklendirme')">Dudak Renklendirme</a>
+          <a class="col-xs" onclick="scrollToDiv('kirpik-lifting')">Kirpik Lifting</a>
+          <a class="col-xs" onclick="scrollToDiv('kas-konturu')">Kaş Kontürü</a>
+          <a class="col-xs" onclick="scrollToDiv('altin-serum')">Altın Serum</a>
+          <a class="col-xs" onclick="scrollToDiv('dudak-vitamini')">Dudak Vitamini</a>
+          <a class="col-xs" onclick="scrollToDiv('epilasyon')">Epilasyon</a>
+          <a class="col-xs" onclick="scrollToDiv('cilt-bakimi')">Cilt Bakımı</a>
+          <a class="col-xs" onclick="scrollToDiv('sac-tasarimi')">Saç Tasarımı</a>
+          <a class="col-xs" onclick="scrollToDiv('iletisim')">İletişim</a>
         </nav>
       </div>
     </header>
     <section id="intro">
       <div class="row intro-content">
-        <div class="col-xs">
-          <h1 class="text-lead">Er</h1>
-          <h1 class="text-lead">&nbsp;kek</h1>
+        <div class="col-xs-12 col-md flex-center-y">
+          <h1 class="text-lead">Erkut</h1>
+          <h1 class="text-lead">&nbsp;Köksal</h1>
           <p class="text-lead m-b-3em">
-            Erkek uzman eşliğinde, sana özel, seni zirveye taşıyacak hizmetler
+            Sana özel hizmet, en doğru güzellik, en iyi fiyat garantisi ile..
           </p>
-          <button class="btn btn-primary btn-lead">Bizi Keşfet</button>
+          <button
+            class="btn btn-primary btn-lead hide-till-md"
+            onclick="scrollToDiv('dudak-renklendirme')"
+          >
+            Bizi Keşfet
+          </button>
+        </div>
+        <div class="col-xs-12 col-md flex-center-both">
+          <img class="responsive" src="img/logo-big.jpg" alt="Erkut Köksal logo" />
         </div>
       </div>
     </section>
-    <section id="epilation" class="bg1 text-white">
+    <section id="dudak-renklendirme" class="bg1 text-white">
       <div class="row">
         <div class="col-xs-12 col-md text-center">
-          <img class="responsive" src="img/epilation.jpg" alt="man epilation body" />
+          <img
+            class="responsive shift-up"
+            src="img/dudak-renklendirme.jpg"
+            alt="dudak renklendirme"
+          />
+        </div>
+        <div class="col-xs-12 col-md flex-center-both">
+          <h1>Dudak Renklendirme</h1>
+          <p>2-4 yıl kalıcı bitkisel yeni nesil boyalar ile hem daha doğal hem de daha kalıcı.</p>
+          <p>İşlem süresi: 2 saat</p>
+        </div>
+      </div>
+    </section>
+    <section id="kirpik-lifting">
+      <div class="row">
+        <div class="col-xs-12 col-md flex-center-both">
+          <h1>Kirpik Lifting</h1>
+          <p>
+            Kirpik Lifting: Hem besleme hem kıvırma işlemidir. Kirpiklerinizde rimel etkisi sürerken
+            aynı zamanda kirpikler daha güçlü hala gelir.
+          </p>
+          <p>
+            Kullanım süresi: 1.5 ay
+            <br />
+            İşlem süresi: 1 saat
+          </p>
+          <button class="btn btn-primary" onclick="scrollToDiv('iletisim')">Bize Ulaş</button>
+          <br /><br />
+        </div>
+        <div class="col-xs-12 col-md flex-center-both">
+          <img class="responsive" src="img/kirpik-lifting.jpg" alt="Kirpik Lifting" />
+        </div>
+      </div>
+    </section>
+    <section id="kas-konturu" class="bg-black text-white">
+      <div class="row">
+        <div class="col-xs-12 col-md flex-center-both">
+          <img class="responsive" src="img/kas-konturu.jpg" alt="Kaş Kontürü" />
+        </div>
+        <div class="col-xs-12 col-md flex-center-both">
+          <h1>Kaş Kontürü</h1>
+          <p>
+            Yeni nesil boyalar ile daha kalıcı ve daha doğal bir görüntü. Bitkisel renk
+            değiştirmeyen yeni nesil boyalar ile kaş göz gerisi söz :)
+          </p>
+          <p>
+            Kullanım süresi: 12-14 ay
+            <br />
+            İşlem süresi: 1.5-2 saat
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="altin-serum" class="bg1 text-white">
+      <div class="row">
+        <div class="col-xs-12 col-md text-center">
+          <img class="responsive shift-up" src="img/altin-serum.jpg" alt="dudak renklendirme" />
+        </div>
+        <div class="col-xs-12 col-md flex-center-both">
+          <h1>Altın Serum</h1>
+          <p>
+            Botoks etkisi cildinizde! Kolojen ve anti-aging serumu karışımı serum ile yan etki riski
+            yoktur.
+          </p>
+          <p>
+            Kullanım süresi: 8-10 ay
+            <br />
+            İşlem süresi: Sadece 3 dakika
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="dudak-vitamini">
+      <div class="row">
+        <div class="col-xs-12 col-md flex-center-both">
+          <h1>Dudak Vitamini</h1>
+          <p>
+            Cihaz yardımlı acısız ve konforlu dudak vitamini işlemi ile artık doğal ve hacimli
+            dudaklar sizin.
+          </p>
+          <p>İşlem süresi: Sadece 15 dakika</p>
+        </div>
+        <div class="col-xs-12 col-md flex-center-both">
+          <img class="responsive" src="img/dudak-vitamini.jpg" alt="Kirpik Lifting" />
+        </div>
+      </div>
+    </section>
+    <section id="epilasyon" class="bg1 text-white">
+      <div class="row">
+        <div class="col-xs-12 col-md text-center">
+          <img class="responsive shift-up" src="img/epilasyon.jpg" alt="man epilation body" />
         </div>
         <div class="col-xs-12 col-md flex-center-both">
           <h1>Epilasyon</h1>
@@ -72,7 +175,7 @@
         </div>
       </div>
     </section>
-    <section id="skin-care">
+    <section id="cilt-bakimi">
       <div class="row">
         <div class="col-xs-12 col-md flex-center-both">
           <h1>Klasik Cilt Bakımı</h1>
@@ -92,18 +195,18 @@
             Zamanla yıpranıp sağlığını yitiren cildin kaybettiği formunu, nem, vitamin ve mineral
             desteğiyle geri kazandırmayı amaçlar.
           </p>
-          <button class="btn btn-primary" onclick="scrollToDiv('contact')">Bize Ulaş</button>
+          <button class="btn btn-primary" onclick="scrollToDiv('iletisim')">Bize Ulaş</button>
           <br /><br />
         </div>
         <div class="col-xs-12 col-md flex-center-both">
-          <img class="responsive" src="img/skin-care.jpg" alt="man skin care" />
+          <img class="responsive" src="img/cilt-bakimi.jpg" alt="man skin care" />
         </div>
       </div>
     </section>
-    <section id="hair" class="text-white">
+    <section id="sac-tasarimi" class="bg-black text-white">
       <div class="row">
         <div class="col-xs-12 col-md flex-center-both">
-          <img class="responsive" src="img/hair.jpg" alt="man afro hair dark art" />
+          <img class="responsive" src="img/sac-tasarimi.jpg" alt="man afro hair dark art" />
         </div>
         <div class="col-xs-12 col-md flex-center-both">
           <h1>Saç ve Kaş Tasarımı</h1>
@@ -119,7 +222,7 @@
         </div>
       </div>
     </section>
-    <section id="contact" class="bg1 text-white">
+    <section id="iletisim" class="bg1 text-white">
       <div class="row">
         <div class="col-xs text-center">
           <h1>Bize Ulaşın</h1>
@@ -127,10 +230,10 @@
             class="responsive"
             src="img/Erkut_Koksal.jpeg"
             alt="
-          Uzman Erkek Estetisyen Erkut Köksal"
+          Uzman Estetisyen Erkut Köksal"
           />
           <h1>Erkut Köksal</h1>
-          <h2>Uzman Erkek Estetisyen</h2>
+          <h2>Uzman Estetisyen</h2>
           <div class="inline-block">
             <a href="https://api.whatsapp.com/send?phone=905424321663">
               <img src="img/social/whatsapp.svg" alt="whatsapp" />

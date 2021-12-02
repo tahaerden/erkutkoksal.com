@@ -25,8 +25,8 @@ button {
   min-width: 30%;
   max-width: 80%;
   text-align: right;
-  position: absolute;
-  left: 0;
+  position: relative;
+  left: -200px;
 }
 .responsive {
   max-width: 100%;
@@ -38,6 +38,9 @@ button {
 }
 .bg1 {
   background-color: #104639;
+}
+.bg-black {
+  background-color: #000000;
 }
 .text-1 {
   color: #104639;
@@ -113,13 +116,13 @@ section {
   display: flex;
   flex-direction: column;
 }
-.intro-content {
+/* .intro-content {
   flex: 1;
-  background-image: url('../img/intro-bg.png');
+  background-image: url('../img/logo-big.jpeg');
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
-}
+} */
 .social {
   position: fixed;
   width: 8vw;
@@ -138,30 +141,37 @@ section {
 .social a img {
   width: 100%;
 }
+.flex-center-y {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .flex-center-both {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#epilation img {
+.shift-up {
   position: relative;
   top: -40px;
 }
-#hair {
-  background-color: black;
-}
-#contact {
+#iletisim {
   position: relative;
   text-align: center;
 }
-#contact a {
+#iletisim a {
   color: white;
   display: block;
   text-decoration: none !important;
   padding: 2em;
   width: 80px;
 }
-#contact a img {
+#iletisim a img {
   width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .hide-till-md {
+    display: none;
+  }
 }
